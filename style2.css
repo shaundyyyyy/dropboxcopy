@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+ .content2{
+  width: 100%;
+  position: absolute; 
+  top: 10%;
+  text-align: center;
+  color: black;
+}
+
+
+
+ .content2 p{
+  padding: 1%;
+  }
+  
+.container2{
+  padding: 15px 9%;
+  padding-bottom: 100px;
+} 
+
+.container2 .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(270px, 1fr));
+  gap:15px;
+
+}
+
+.container2 .box-container .box{
+  background: white;
+  text-align: left;
+  padding:30px 20px;
+  margin: 5px;
+}
+
+.container2 .box-container .box img{
+  height: 60px;
+}
+
+.container2 .box-container .box h3{
+  padding: 10px 0;
+}
+
+.container2 .box-container .box p{
+  padding: 10px 0;
+}
+
